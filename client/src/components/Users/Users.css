@@ -1,0 +1,64 @@
+.users-container {
+    margin: 20px;
+  }
+  
+  .users-table,
+  .admins-table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  h2{
+
+    margin-top: 20px;
+  }
+
+  .users-table td{
+    background-color: #e3dbdb;
+  }
+  
+  .users-table th,
+  .users-table td,
+  .admins-table th,
+  .admins-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .users-table th,
+  .admins-table th {
+    background-color: #3d51b7;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .action-btn {
+    padding: 8px 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #f44336;
+    color: rgb(244, 235, 235);
+  }
+  
+  .action-btn:hover {
+    background-color: #d32f2f;
+  }
+  
+  .admins-table {
+    margin-top: 40px;
+  }
+  
+  .admins-table th {
+    background-color: #4caf50;
+    color: rgb(12, 11, 11);
+  }
+  
+  .admins-table td {
+    background-color: #deebdf;
+    color: rgb(16, 16, 16);
+  }
+  

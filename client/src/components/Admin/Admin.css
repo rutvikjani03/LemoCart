@@ -1,0 +1,116 @@
+/* Admin.css
+
+.admin-container {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+  
+  .admin-header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  h3{
+    color: wheat;
+    margin-left: 10px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  .logo-text {
+    font-size: 24px;
+  }
+  
+  .admin-header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .admin-header nav ul li {
+    margin-right: 20px;
+  }
+  
+  .admin-header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .admin-header nav ul li a i {
+    margin-right: 5px;
+  }
+
+  .admin-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+   */
+
+   .admin-container {
+    
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+  
+  body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+
+  .admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #729ebd;
+    color: #fff;
+    padding: 10px 10px;
+   
+  }
+  
+  .admin-header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+    font-size: larger;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #1c0cc9;
+  }
+  
+  .logout-link {
+    margin-left: auto; /* Pushes logout link to the right */
+  }
+  
+  .admin-content {
+    margin:300px 500px;
+    font-size: 30px;
+  }
+  
